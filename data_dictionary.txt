@@ -2,8 +2,7 @@
 
  
 2.Data used in this article consist of two parts. 
-The first part is the brain ROI data for each subject stored in each NYU_XXXXXXX_rois_aal.1D document. Each `.1D' document is the 2-D (time-region) brain ROI data for one subject, where XXXXXXX is the ID of the patient. The code used to read in the ROI data is included in `RealCaseStudy.R'. 
-Second part of the data is the covariates of patients, which is contained in the `phenotypic_NYU.csv' file. (See `Process to request Data.txt' file for accessing the data.) The code used to read in the covariates data is included in `RealCaseStudy.R'. 
+The first part is the brain ROI data for each subject stored in each NYU_XXXXXXX_rois_aal.1D document. Each `.1D' document is the 2-D (time-region) brain ROI data for one subject, where XXXXXXX is the ID of the patient. The code used to read in the ROI data is included in `RealCaseStudy.R'. Second part of the data is the covariates of patients, which is contained in the `phenotypic_NYU.csv' file. (See `Process to request Data.txt' file for accessing the data.) The code used to read in the covariates data is included in `RealCaseStudy.R'. 
 
 
 Variable Names and Meanings:
