@@ -1,0 +1,24 @@
+1.Data used in the Case Study are publicly available by request. The way to get access to the data is shown in `Process to request Data.txt' file.
+
+ 
+2.Data used in this article consist of two parts. 
+The first part is the brain ROI data for each subject stored in each NYU_XXXXXXX_rois_aal.1D document. Each `.1D' document is the 2-D (time-region) brain ROI data for one subject, where XXXXXXX is the ID of the patient. The code used to read in the ROI data is included in `RealCaseStudy.R'. 
+Second part of the data is the covariates of patients, which is contained in the `phenotypic_NYU.csv' file. (See `Process to request Data.txt' file for accessing the data.) The code used to read in the covariates data is included in `RealCaseStudy.R'. 
+
+
+Variable Names and Meanings:
+① Each NYU_XXXXXXX_rois_aal.1D document is the time-region 2-D array for patient with ID XXXXXXX. 
+② Among the variables provided in `ABIDE II Composite Phenotypic File', the ones used in the Case Study section are `AGE_AT_SCAN', `SEX', `HANDEDNESS_SCORES', `FIQ', `DX_GROUP' and `CURRENT_MED_STATUS'. For the meaning of the rest of variables, the reader can refer to the 'ABIDE II Phenotypic Data Legend' document, which can be downloaded at the ABIDE website `http://fcon_1000.projects.nitrc.org/indi/abide/ABIDEII_Data_Legend.pdf'.
+
+AGE_AT_SCAN: Age at time of scan (years)
+
+SEX: Gender 1=male; 2=female
+
+HANDEDNESS_SCORES: Handedness Scores, right handed: scores ≥ 50; left handed: scores ≤-50; mixed handed: scores between -50 and 50
+
+FIQ: Full IQ Standard Score
+
+DX_GROUP: Diagnostic Group  1=Autism;  2=Control
+
+CURRENT_MED_STATUS: Currently taking medications (within three months from scan) 0=no;  1=yes
+
