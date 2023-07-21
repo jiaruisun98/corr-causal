@@ -2,12 +2,17 @@
 
  
 2.Data used in this article consist of two parts. 
-The first part is the brain ROI data for each subject stored in each NYU_XXXXXXX_rois_aal.1D document. Each `.1D' document is the 2-D (time-region) brain ROI data for one subject, where XXXXXXX is the ID of the patient. The code used to read in the ROI data is included in `RealCaseStudy.R'. Second part of the data is the covariates of patients, which is contained in the `phenotypic_NYU.csv' file. (See `Process to request Data.txt' file for accessing the data.) The code used to read in the covariates data is included in `RealCaseStudy.R'. 
+The first part is the brain ROI data for each subject stored in each NYU_XXXXXXX_rois_aal.1D document.
+Each `.1D' document is the 2-D (time-region) brain ROI data for one subject, where XXXXXXX is the ID of the patient. 
+The code used to read in the ROI data is included in `RealCaseStudy.R'. 
+Second part of the data is the covariates of patients, which is contained in the `phenotypic_NYU.csv' file. (See `Process to request Data.txt' file for accessing the data.) 
+The code used to read in the covariates data is included in `RealCaseStudy.R'. 
 
 
 Variable Names and Meanings:
 ① Each NYU_XXXXXXX_rois_aal.1D document is the time-region 2-D array for patient with ID XXXXXXX. 
-② Among the variables provided in `ABIDE II Composite Phenotypic File', the ones used in the Case Study section are `AGE_AT_SCAN', `SEX', `HANDEDNESS_SCORES', `FIQ', `DX_GROUP' and `CURRENT_MED_STATUS'. For the meaning of the rest of variables, the reader can refer to the 'ABIDE II Phenotypic Data Legend' document, which can be downloaded at the ABIDE website `http://fcon_1000.projects.nitrc.org/indi/abide/ABIDEII_Data_Legend.pdf'.
+② Among the variables provided in `ABIDE II Composite Phenotypic File', the ones used in the Case Study section are `AGE_AT_SCAN', `SEX', `HANDEDNESS_SCORES', `FIQ', `DX_GROUP' and `CURRENT_MED_STATUS'.
+For the meaning of the rest of variables, the reader can refer to the 'ABIDE II Phenotypic Data Legend' document, which can be downloaded at the ABIDE website `http://fcon_1000.projects.nitrc.org/indi/abide/ABIDEII_Data_Legend.pdf'.
 
 AGE_AT_SCAN: Age at time of scan (years)
 
