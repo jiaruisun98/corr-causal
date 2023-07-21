@@ -11,9 +11,9 @@ There are 8 documents.
 
 4.Simulation-result.xlsx is our simulation results which are presented in the article.
 
-5.plot.R uses simulation results in Simulation.R and Simulation_regression.R to produce Figure 1, 2 and S1. In plot.R, `plot_block' produces Figure 1, `plot_off` produces Figure 2, and `plot_lasso' produces Figure S1.
+5.plot.R uses simulation results in Simulation.R and Simulation_regression.R to produce Figure 1, 2 and S1. In plot.R, `plot_block` produces Figure 1, `plot_off` produces Figure 2, and `plot_lasso` produces Figure S1.
 
-6.RealCaseStudy.R is the code for application. This code produces table 1 and the brain connection in Figure S2. In RealCaseStudy.R, `Connection_diff1` provides the Nerwork in `Table1` and `Figure S2`, `Tau_sig` provides the `Estimated Effect` in `Table1`, `CI_low' and `CI_high' provides the 95% CI in `Table1`, `Ave-trt` and `Ace-cl` provide Ave-trt and Ace-cl in `Table1`.
+6.RealCaseStudy.R is the code for application. This code produces table 1 and the brain connection in Figure S2. In RealCaseStudy.R, `Connection_diff1` provides the Nerwork in `Table1` and `Figure S2`, `Tau_sig` provides the `Estimated Effect` in `Table1`, `CI_low` and `CI_high` provides the 95% CI in `Table1`, `Ave-trt` and `Ace-cl` provide Ave-trt and Ace-cl in `Table1`.
 
 7.data_dictionary.txt tells the meaning of the data used in this article.
 
